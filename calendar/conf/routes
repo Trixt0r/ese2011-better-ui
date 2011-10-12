@@ -1,0 +1,31 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+GET		/register.html							Application.form
+POST	/register.html							Application.register
+GET		/addEvent.html							Admin.form
+POST	/addEvent.html							Admin.addEvent
+GET		/userIndex/?							UserIndex.index
+GET		/calendarIndex/?						CalendarIndex.index
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
+
+# Import Secure routes
+*       /                                       module:secure
+
+# Administration
+GET     /admin/?                                Admin.index
+*       /admin                                  module:crud
+
+#UserIndex,CalendarIndex,EventIndex
+GET		/userIndex/?							UserIndex.user

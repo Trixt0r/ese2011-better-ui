@@ -1,0 +1,11 @@
+<a href="@{UserIndex.index()}">Back</a>
+<a href="@{Application.index()}">Main</a>
+<h1>${user.name}'s calendars</h1>
+
+<ul>
+	#{list items: cals, as: 'cal'}
+		<li>
+			<a href = "@{CalendarIndex.index()}">${cal.name}</a>
+		</li>
+	#{/list}
+</ul>

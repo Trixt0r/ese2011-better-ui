@@ -1,0 +1,22 @@
+#{extends 'main.html' /}
+#{set title:'Register yourself'/}
+<a href="@{Application.index}">Back</a>
+<h1>Registration</h1>
+<div id="login">
+	
+	<h1>&{'secure.title'}</h1>
+		
+	#{form @register()}
+		<p id="name-field">
+			<label for="name">&{'secure.username'}</label>
+			<input type="text" name="name" id="name" value="" />
+		</p>
+		<p id="password-field">
+			<label for="password">&{'secure.password'}</label>
+			<input type="password" name="password" id="password" value="" />
+		</p>
+		<p id="signin-field">
+			<input type="submit" id="confirm" value="Save" />
+		</p>
+	#{/form}
+</div>

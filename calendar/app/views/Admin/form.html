@@ -1,0 +1,113 @@
+<a href="@{UserIndex.index()}">Back</a>
+<a href="@{Application.index()}">Main</a>
+<style type="text/css">
+	h1{
+	font-size: 1-5em;
+    margin: 0.5em; padding: 0.3em;
+    text-align: left;
+	}
+  #name-field {
+    padding: 2em;
+    margin: 0.5em;
+    background-color: white;
+  }
+  #name {
+  	position: relative;
+  	left: 2.5em;
+    background-color: white;
+  }
+  #startDate-field {
+  	position: relative;
+  	left: 2.5em;
+    padding: 0.25em;
+    background-color: white;
+  }
+  #startDate {
+  	position: relative;
+  	left: 2.5em;
+    background-color: white;
+  }
+  #sTLbl {
+  	position: relative;
+  	left: 4em;
+    background-color: white;
+  }
+  #startTime {
+  	position: relative;
+  	left: 4.6em;
+    background-color: white;
+  }
+  #endDate-field {
+  	position: relative;
+  	left: 2.5em;
+    padding: 0.25em;
+    background-color: white;
+  }
+  #endDate {
+  	position: relative;
+  	left: 2.9em;
+    background-color: white;
+  }
+  #eTLbl {
+  	position: relative;
+  	left: 4.4em;
+    background-color: white;
+  }
+  #endTime {
+  	position: relative;
+  	left: 5em;
+    background-color: white;
+  }
+  #pub-field {
+  	position: relative;
+  	left: 2.5em;
+    padding: 0.25em;
+    background-color: white;
+  }
+  #pub {
+  	position: relative;
+  	left: 1em;
+    padding: 0.1em;
+    background-color: white;
+    width: 2em;
+  }
+  #signin-field {
+  	position: relative;
+  	left: 16em;
+    padding: 0.5em;
+    background-color: white;
+  }
+
+  #Navigation {
+</style>
+<h1>{Add | Edit event}</h1>
+
+<div id="newEvent"">
+	#{form @addEvent()}
+		<p id="name-field">
+			<label for="name">Title: </label>
+			<input type="text" name="name" id="name" value="ESE Exercise" size = "12" />
+		</p>
+		<p id="startDate-field">
+			<label for="startDate">Start</label>
+			<input type="text" name="startDate" id="startDate" value="01.01.2011" size = "15" />
+			<label for="startTime" id = "sTLbl">Time </label>
+			<input type="text" name="startTime" id="startTime" value="00:00" size = "5" />
+		</p>
+		<p id="endDate-field">
+			<label for="endDate">End</label>
+			<input type="text" name="endDate" id="endDate" value="01.01.2011" size = "15"/>
+			<label for="endTime" id = "eTLbl">Time</label>
+			<input type="text" name="endTime" id="endTime" value="00:00" size = "5"/>
+		</p>
+		<p id="pub-field">
+			Privacy
+			<input type="checkbox" name="pub" id="pub" value="true" ${flash.remember ? 'checked="true"' : ''} />
+			<label for="pub"> Public</label>
+		</p>
+		<p id="signin-field">
+			<input type="submit" id="signin" value="Save" />
+			<input type="reset" id="signin" value="Cancel" />
+		</p>
+	#{/form}
+</div>

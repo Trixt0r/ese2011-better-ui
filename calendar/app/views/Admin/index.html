@@ -1,0 +1,23 @@
+<a href ="http://localhost:9000/logout">Logout</a>
+<h1>Welcome ${user.name}!</h1>
+<p>Your current calendars:</p>
+
+<ul>
+	#{list items: cals, as: 'cal'}
+		<li>
+			<a href = "@{CalendarIndex.index()}">${cal.name}</a>
+		</li>
+	#{/list}
+</ul>
+
+<div id="newCalendar">
+	#{form @addCalendar()}
+		<p id="calendarname-field">
+			<label for="calendarname">Calendar name: </label>
+			<input type="text" name="calendarname" id="calendarname" value="" />
+		</p>
+		<p id="signin-field">
+			<input type="submit" id="signin" value="Add calendar" />
+		</p>
+	#{/form}
+</div>

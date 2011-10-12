@@ -1,0 +1,433 @@
+05 Okt 2011 20:14:50,310 INFO  ~ Starting C:\Users\Heinrich\Java\Play\calendar
+05 Okt 2011 20:14:50,314 INFO  ~ Module crud is available (C:\Users\Heinrich\Java\Play\modules\crud)
+05 Okt 2011 20:14:50,315 INFO  ~ Module secure is available (C:\Users\Heinrich\Java\Play\modules\secure)
+05 Okt 2011 20:14:50,804 WARN  ~ You're running Play! in DEV mode
+05 Okt 2011 20:14:50,893 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+05 Okt 2011 20:15:23,711 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+05 Okt 2011 20:15:23,751 INFO  ~ Application 'calendar' is now started !
+05 Okt 2011 21:19:32,955 ERROR ~ 
+
+@6820gkdce
+Internal Server Error (500) for request GET /
+
+Template execution error (In /app/views/Application/index.html around line 6)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingPropertyException : No such property: events for class: java.lang.String.
+
+play.exceptions.TemplateExecutionException: No such property: events for class: java.lang.String
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingPropertyException: No such property: events for class: java.lang.String
+	at /app/views/Application/index.html.(line:6)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:22:43,070 ERROR ~ 
+
+@6820gkdcf
+Internal Server Error (500) for request GET /
+
+Template execution error (In /app/views/Application/index.html around line 6)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingPropertyException : No such property: events for class: java.lang.String.
+
+play.exceptions.TemplateExecutionException: No such property: events for class: java.lang.String
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingPropertyException: No such property: events for class: java.lang.String
+	at /app/views/Application/index.html.(line:6)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:23:00,752 ERROR ~ 
+
+@6820gkdcg
+Internal Server Error (500) for request GET /
+
+Template execution error (In /app/views/Application/index.html around line 6)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingMethodException : No signature of method: Template_1000.creatDate() is applicable for argument types: () values: [].
+
+play.exceptions.TemplateExecutionException: No signature of method: Template_1000.creatDate() is applicable for argument types: () values: []
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingMethodException: No signature of method: Template_1000.creatDate() is applicable for argument types: () values: []
+	at /app/views/Application/index.html.(line:6)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:23:14,819 ERROR ~ 
+
+@6820gkdch
+Internal Server Error (500) for request GET /
+
+Template execution error (In /app/views/Application/index.html around line 6)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingMethodException : No signature of method: Template_1000.createDate() is applicable for argument types: () values: [].
+
+play.exceptions.TemplateExecutionException: No signature of method: Template_1000.createDate() is applicable for argument types: () values: []
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingMethodException: No signature of method: Template_1000.createDate() is applicable for argument types: () values: []
+	at /app/views/Application/index.html.(line:6)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:36:46,758 ERROR ~ 
+
+@6820gkdci
+Internal Server Error (500) for request GET /?event=dsadas
+
+Template compilation error (In /app/views/Application/index.html around line 0)
+The template /app/views/Application/index.html does not compile : unexpected token: out 
+
+play.exceptions.TemplateCompilationException: unexpected token: out 
+	at play.templates.GroovyTemplate.compile(GroovyTemplate.java:171)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:192)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:17)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+05 Okt 2011 21:37:56,809 ERROR ~ 
+
+@6820gkdcj
+Internal Server Error (500) for request GET /?event=dsadas
+
+Template compilation error (In /app/views/Application/index.html around line 9)
+The template /app/views/Application/index.html does not compile : expecting ')', found ';' 
+
+play.exceptions.TemplateCompilationException: expecting ')', found ';' 
+	at play.templates.GroovyTemplate.compile(GroovyTemplate.java:171)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:192)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:17)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+05 Okt 2011 21:38:21,001 ERROR ~ 
+
+@6820gkdck
+Internal Server Error (500) for request GET /?event=dsadas
+
+Template compilation error (In /app/views/Application/index.html around line 9)
+The template /app/views/Application/index.html does not compile : expecting ')', found ';' 
+
+play.exceptions.TemplateCompilationException: expecting ')', found ';' 
+	at play.templates.GroovyTemplate.compile(GroovyTemplate.java:171)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:192)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:17)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+05 Okt 2011 21:41:42,044 ERROR ~ 
+
+@6820gkdcl
+Internal Server Error (500) for request GET /?event=dsadas
+
+Template execution error (In /app/views/Application/index.html around line 9)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingMethodException : No signature of method: Template_1000.addEvent() is applicable for argument types: (java.lang.String) values: [event].
+
+play.exceptions.TemplateExecutionException: No signature of method: Template_1000.addEvent() is applicable for argument types: (java.lang.String) values: [event]
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingMethodException: No signature of method: Template_1000.addEvent() is applicable for argument types: (java.lang.String) values: [event]
+	at /app/views/Application/index.html.(line:9)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:42:12,118 ERROR ~ 
+
+@6820gkdcm
+Internal Server Error (500) for request GET /?event=dsadas
+
+Template execution error (In /app/views/Application/index.html around line 9)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingMethodException : No signature of method: Template_1000.addEvent() is applicable for argument types: (null) values: [null].
+
+play.exceptions.TemplateExecutionException: No signature of method: Template_1000.addEvent() is applicable for argument types: (null) values: [null]
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingMethodException: No signature of method: Template_1000.addEvent() is applicable for argument types: (null) values: [null]
+	at /app/views/Application/index.html.(line:9)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:57:14,493 ERROR ~ 
+
+@6820gkdcn
+Internal Server Error (500) for request GET /?event=asas
+
+Template execution error (In /app/views/Application/index.html around line 11)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingPropertyException : No such property: event for class: java.lang.String.
+
+play.exceptions.TemplateExecutionException: No such property: event for class: java.lang.String
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:19)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingPropertyException: No such property: event for class: java.lang.String
+	at /app/views/Application/index.html.(line:11)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:57:24,459 ERROR ~ 
+
+@6820gkdco
+Internal Server Error (500) for request GET /?event=asas
+
+Template execution error (In /app/views/Application/index.html around line 11)
+Execution error occured in template /app/views/Application/index.html. Exception raised was NullPointerException : null.
+
+play.exceptions.TemplateExecutionException
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:19)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.templates.GroovyTemplate$ExecutableTemplate.__getMessage(GroovyTemplate.java:410)
+	at /app/views/Application/index.html.(line:11)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 21:57:42,919 ERROR ~ 
+
+@6820gkdcp
+Internal Server Error (500) for request GET /?event=asas
+
+Template execution error (In /app/views/Application/index.html around line 11)
+Execution error occured in template /app/views/Application/index.html. Exception raised was NullPointerException : null.
+
+play.exceptions.TemplateExecutionException
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:84)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:252)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:184)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:659)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:19)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.templates.GroovyTemplate$ExecutableTemplate.__getMessage(GroovyTemplate.java:410)
+	at /app/views/Application/index.html.(line:11)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:229)
+	... 13 more
+05 Okt 2011 22:11:47,559 ERROR ~ 
+
+@6820gkdd1
+Internal Server Error (500) for request GET /?event=dsadsa
+
+Oops: UnexpectedException
+An unexpected error occured caused by exception UnexpectedException: Unexpected Error
+
+play.exceptions.UnexpectedException: Unexpected Error
+	at play.vfs.VirtualFile.contentAsString(VirtualFile.java:180)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:78)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:172)
+	at play.mvc.Controller.renderTemplate(Controller.java:658)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: play.exceptions.UnexpectedException: Unexpected Error
+	at play.vfs.VirtualFile.inputstream(VirtualFile.java:111)
+	at play.vfs.VirtualFile.contentAsString(VirtualFile.java:178)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\Heinrich\Java\Play\calendar\app\views (Zugriff verweigert)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at play.vfs.VirtualFile.inputstream(VirtualFile.java:109)
+	... 13 more
+05 Okt 2011 22:12:06,877 ERROR ~ 
+
+@6820gkdd3
+Internal Server Error (500) for request GET /?event=dsadsa
+
+Template not found (In /app/controllers/Application.java around line 18)
+The template dsadas does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : dsadas
+	at play.mvc.Controller.renderTemplate(Controller.java:666)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+05 Okt 2011 22:12:24,452 ERROR ~ 
+
+@6820gkdd5
+Internal Server Error (500) for request GET /?event=dsadsa
+
+Oops: UnexpectedException
+An unexpected error occured caused by exception UnexpectedException: Unexpected Error
+
+play.exceptions.UnexpectedException: Unexpected Error
+	at play.vfs.VirtualFile.contentAsString(VirtualFile.java:180)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:78)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:172)
+	at play.mvc.Controller.renderTemplate(Controller.java:658)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)
+Caused by: play.exceptions.UnexpectedException: Unexpected Error
+	at play.vfs.VirtualFile.inputstream(VirtualFile.java:111)
+	at play.vfs.VirtualFile.contentAsString(VirtualFile.java:178)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\Heinrich\Java\Play\calendar\app\views (Zugriff verweigert)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at play.vfs.VirtualFile.inputstream(VirtualFile.java:109)
+	... 13 more
+05 Okt 2011 22:14:33,220 ERROR ~ 
+
+@6820gkdd7
+Internal Server Error (500) for request GET /?event=dsadsa
+
+Template not found (In /app/controllers/Application.java around line 18)
+The template [] does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : []
+	at play.mvc.Controller.renderTemplate(Controller.java:666)
+	at play.mvc.Controller.renderTemplate(Controller.java:639)
+	at play.mvc.Controller.render(Controller.java:694)
+	at controllers.Application.index(Application.java:18)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:476)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	at Invocation.HTTP Request(Play!)

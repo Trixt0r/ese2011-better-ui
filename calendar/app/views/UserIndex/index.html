@@ -1,0 +1,11 @@
+<a href = "@{Application.index()}"> Back </a>
+<p>Current users:</p>
+
+
+<ul>
+	#{list items: users, as: 'member'}
+		<li>
+			<a id = "member" href= "@{UserIndex.user(member)}"> ${member.name}</a>
+		</li>
+	#{/list}
+</ul>

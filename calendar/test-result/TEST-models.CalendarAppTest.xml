@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0.013" errors="0" skipped="0" tests="8" name="models.CalendarAppTest">
+  <testcase classname="models.CalendarAppTest" name="testNames" time="0.001">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testCalendarNamesAndOwners" time="0.001">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testCalendarEvents" time="0.002">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testEventDatesAndName" time="0.001">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testEventVisibility" time="0.001">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testTwoEventsStartingAtTheSameDate" time="0.002">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testAllPublicEvents" time="0.001">
+      </testcase>
+  <testcase classname="models.CalendarAppTest" name="testAllPrivateEvents" time="0.004">
+      </testcase>
+</testsuite>

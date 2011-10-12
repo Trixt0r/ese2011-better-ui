@@ -1,0 +1,11 @@
+<a href="@{UserIndex.index()}">Back</a>
+<a href="@{Application.index()}">Main</a>
+<p>Events in this calendar</p>
+<ul>
+	#{list items: evs, as: 'ev'}
+			<li>
+				${ev.name}
+			</li>
+	#{/list}
+</ul>
+<a href="addEvent.html">Add new event</a>
